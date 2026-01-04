@@ -25,10 +25,10 @@ const Contact = () => {
   whileInView={{ opacity: 1, x: 0 }}
   initial={{ opacity: 0, x: -100 }}
   transition={{ duration: 1 }}
-  href="mailto:aryan.official2k22@gmail.com" 
+  href="mailto:aryanagrawal0102@gmail.com" 
   className="border-b"
 >
-  aryan.official2k22@gmail.com
+  aryanagrawal0102@gmail.com
 </motion.a>
 
         </div>

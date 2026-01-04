@@ -1,7 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -15,36 +14,35 @@ export const EXPERIENCES = [
     description: `Developed responsive user interfaces using React.js, ensuring optimized performance and seamless user experience. Integrated RESTful APIs from Postman for dynamic data rendering and enhanced frontend-backend communication.`,
     technologies: ["HTML","TailwindCSS","Javascript", "React.js"],
   },
-  {
-    year: "May,2025 - June",
-    role: "Frontend Developer",
-    company: "Vhyxara",
-    description: `Built a dynamic Link-in-bio tool for influencers and public figures using Next.js and TypeScript. Implemented subscription-based features with three plan tiers and RBAC for secure role-based access control. Focused on responsive UI and seamless user experience across devices.`,
-    technologies: ["HTML", "TailwindCSS","TypeScript","Next.js","RBAC"],
-  },
 ];
 
 export const PROJECTS = [
+  {
+    title: "VIFS",
+    image: project2,
+    description:
+      "Developed a web app for sharing GIFs, stickers, and memes with one-tap downloads and personal libraries. Built a responsive UI with Tailwind CSS, integrated APIs with CORS handling, and achieved 1000+ users.",
+    technologies: ["HTML", "TailwindCSS","React", "JavaScript"],
+    github: "https://github.com/0Aryan1/VIFSS_APP",
+    demo: "https://vifss-app-918n.vercel.app"
+  },
   {
     title: "Movie Hub",
     image: project1,
     description:
       "Developed a fully responsive movie and TV show web app using React and Material UI. Integrated TMDB API to enable dynamic search, filtering (trending, type), and trailer viewing. Enhanced UI/UX with React Alice Carousel for interactive content browsing.",
-    technologies: ["html","TailwindCSS","JavaScript", "React", "Material UI", "TMDB API"],
+    technologies: ["HTML","TailwindCSS","JavaScript", "React", "Material UI", "TMDB API"],
+    github: "https://github.com/0Aryan1/Movie-Hub",
+    demo: "https://movie-hub-sage-nine.vercel.app"
   },
   {
-    title: "Employee Management System",
-    image: project2,
-    description:
-      "Built a dual-dashboard web app (Admin & Employee) to streamline task assignment and progress tracking. Enabled employees to accept/reject tasks and view categorized statuses: assigned, completed, failed, pending. Used browser Local Storage for state persistence without backend dependency.",
-    technologies: ["HTML", "TailwindCSS","React", "JavaScript"],
-  },
-  {
-    title: "City Tour Optimization",
+    title: "The Jargonaut",
     image: project3,
     description:
-      "Optimized travel routes using Dijkstra’s algorithm in C++, cutting compute time by 600ms. Used Linked Lists, Hash Tables, Trees, and Graphs for dynamic routing and booking management. Enhanced data handling with search/sort algorithms and exception handling.",
-    technologies: ["HTML","CSS","JavaScript", "Data Structures", "Algorithms"],
+      "The Jargonaut is a blog-style web application focused on exploring topics in corporate law, pop culture, and related analytical content. It appears to offer articles that interpret legal concepts through cultural and practical lenses for readers seeking insights and commentary on legal issues in everyday life.",
+    technologies: ["HTML", "JavaScript","React","Tailwind"],
+    github: "https://github.com/0Aryan1/JARGONAUT",
+    demo: "https://www.thejargonaut.in.net/"
   }
 ];
 
