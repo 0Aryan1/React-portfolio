@@ -2,7 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+
+
 
 export const ABOUT_TEXT = `I'm a fullstack developer and engineering student with a strong foundation in data structures and algorithms, and hands-on experience in full stack development. I've interned at Swapple Solutions and Vhyxara, working from init to deployment—building responsive UIs, integrating RESTful APIs, and implementing secure RBAC systems. My projects like City Tour Optimization and Movie Hub showcase my problem-solving skills and algorithmic thinking. I work with technologies like React, Next.js, Node.js, and MongoDB, and I'm passionate about building efficient, user-focused web applications. I thrive in collaborative teams and enjoy exploring new technologies and contributing to open-source.`;
 
@@ -10,8 +11,13 @@ export const EXPERIENCES = [
   {
     year: "May,2025 - present",
     role: "Frontend Developer",
-    company: "Swapple Solution Pvt. Ltd. ",
-    description: `Developed responsive user interfaces using React.js, ensuring optimized performance and seamless user experience. Integrated RESTful APIs from Postman for dynamic data rendering and enhanced frontend-backend communication.`,
+    company: "Swapple Solution Pvt. Ltd.",
+    description: [
+      "Developed and maintained responsive user interfaces using React.js, ensuring seamless performance across devices and improving overall user accessibility by 35%.",
+      "Implemented secure frontend authentication flows, improving user onboarding efficiency and reducing login-related issues by 30%.",
+      "Integrated and managed APIs with proper CORS handling, asynchronous data fetching, and dynamic UI rendering, reducing data-related UI errors by 40%.",
+      "Optimized frontend performance and code reusability using modular components and state management, decreasing page load time by 25% and improving maintainability."
+    ],
     technologies: ["HTML","TailwindCSS","Javascript", "React.js"],
   },
 ];
@@ -49,5 +55,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "NOIDA - UP, INDIA ",
   phoneNo: "+91 8273910765 ",
-  email: "aryan.official2k22@gmail.com",
+  email: "aryanagrawal16ar@gmail.com",
 };

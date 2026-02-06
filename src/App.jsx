@@ -16,13 +16,22 @@ const App = () => {
       bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
 
+      <Navbar/>
       <div className='container mx-auto px-8'>
-        <Navbar/>
-        <Hero/>
-        <Projects/>
+       <div id="hero">
+         <Hero/>
+       </div>
+        <div id="about">
+          <About/>
+        </div>
         <Technologies/>
         <Experience/>
-        <Contact/>
+        <div id="projects">
+          <Projects/>
+        </div>
+        <div id="contact">
+          <Contact/>
+        </div>
       </div>
     </div>
   )
