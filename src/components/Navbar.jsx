@@ -99,21 +99,17 @@ const Navbar = () => {
 
             {/* Social Links */}
             <div className='flex items-center gap-3 ml-4 pl-4 border-l border-amber-300 dark:border-neutral-700'>
-              <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer'
+              <a href="https://www.linkedin.com/in/aryan-aagrawal/"  target='_blank' rel='noopener noreferrer'
                  className='text-stone-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-purple-400 
                            hover:scale-110 transition-all duration-300'>
                 <FaLinkedin size={22} />
               </a>
-              <a href='https://github.com' target='_blank' rel='noopener noreferrer'
+              <a href="https://github.com/0Aryan1"  target='_blank' rel='noopener noreferrer'
                  className='text-stone-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-purple-400 
                            hover:scale-110 transition-all duration-300'>
                 <FaGithub size={22} />
               </a>
-              <a href='https://instagram.com' target='_blank' rel='noopener noreferrer'
-                 className='text-stone-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-purple-400 
-                           hover:scale-110 transition-all duration-300'>
-                <FaInstagram size={22} />
-              </a>
+              
             </div>
           </div>
 

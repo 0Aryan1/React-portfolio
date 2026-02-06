@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 
 
@@ -49,6 +50,14 @@ export const PROJECTS = [
     technologies: ["HTML", "JavaScript","React","Tailwind"],
     github: "https://github.com/0Aryan1/JARGONAUT",
     demo: "https://www.thejargonaut.in.net/"
+  },
+  {
+    title: "worq",
+    image: project4,
+    description:
+      "worq is a task management application designed to help users organize and prioritize their tasks effectively. It features a clean and intuitive interface, allowing users to create, edit, and delete tasks with ease. The application also includes a Kanban board for visual task management and supports real-time collaboration.",
+    technologies: ["HTML", "JavaScript","React","Tailwind","Context-Api"],
+    github: "hhttps://github.com/0Aryan1/Employee-Management-System",
   }
 ];
 

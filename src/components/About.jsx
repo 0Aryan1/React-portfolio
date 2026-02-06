@@ -77,14 +77,7 @@ const About = () => {
                         >
                           <FaGithub />
                         </a>
-                        <a 
-                          href="https://www.instagram.com/sos_aryan/" 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-amber-600 dark:text-purple-400 hover:text-amber-700 dark:hover:text-purple-300 transition-colors"
-                        >
-                          <FaInstagram /> 
-                        </a>
+                       
                       </motion.div>
                       
                       <motion.div
