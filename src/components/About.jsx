@@ -42,7 +42,7 @@ const About = () => {
                  <div className="flex justify-center lg:justify-start">
                     <div className="max-w-xl">
                       <p className='text-lg leading-relaxed text-stone-700 dark:text-neutral-300 font-light'>
-                        {ABOUT_TEXT.split('. ').map((sentence, index) => (
+                        {ABOUT_TEXT.split('\n').filter(para => para.trim()).map((paragraph, index) => (
                           <motion.span
                             key={index}
                             whileInView={{ opacity: 1 }}
@@ -50,7 +50,7 @@ const About = () => {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             className="block mb-4"
                           >
-                            {sentence}{index < ABOUT_TEXT.split('. ').length - 1 ? '.' : ''}
+                            {paragraph}
                           </motion.span>
                         ))}
                       </p>

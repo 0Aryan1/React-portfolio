@@ -8,7 +8,15 @@ import project6 from "../assets/projects/project-6.png";
 
 
 
-export const ABOUT_TEXT = `I'm a fullstack developer and engineering student with a strong foundation in data structures and algorithms, and hands-on experience in full stack development. I've interned at Swapple Solutions and Vhyxara, working from init to deployment—building responsive UIs, integrating RESTful APIs, and implementing secure RBAC systems. My projects like City Tour Optimization and Movie Hub showcase my problem-solving skills and algorithmic thinking. I work with technologies like React, Next.js, Node.js, and MongoDB, and I'm passionate about building efficient, user-focused web applications. I thrive in collaborative teams and enjoy exploring new technologies and contributing to open-source.`;
+export const ABOUT_TEXT = `Hello! I'm Aryan Agrawal, from Firozabad, the city of Bangles.
+
+I am a creative, goal-oriented individual with strong moral values, excellent communication skills, organizational abilities, and meticulous attention to detail.
+
+I am currently pursuing a Bachelor's of Engineering at JIIT Noida (2022–2026).
+
+I have been the Public Relation Head of Parola Society - JIIT and the Marketing Head of , the CICE Hub.
+
+Here are some of my strengths:`;
 
 export const EXPERIENCES = [
 
