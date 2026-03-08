@@ -3,9 +3,9 @@ import { RiTailwindCssLine } from "react-icons/ri"
 import { RiNodejsLine } from "react-icons/ri"
 import { RiFirebaseLine } from "react-icons/ri"
 import { BiLogoPostgresql } from "react-icons/bi"
-import { SiExpress, SiAppwrite, SiMongodb, SiMysql } from "react-icons/si"
+import { SiExpress, SiAppwrite, SiMongodb, SiMysql, SiShadcnui, SiNextdotjs } from "react-icons/si"
 import { DiJavascript1 } from "react-icons/di"
-import { FaGitAlt } from "react-icons/fa"
+import { FaGitAlt, FaGithub } from "react-icons/fa"
 import {motion} from 'framer-motion'
 
 
@@ -112,6 +112,27 @@ const Technologies = () => {
             animate = 'animate'
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaGitAlt className="text-7xl text-orange-600"/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(2)} 
+            initial='initial'
+            animate = 'animate'
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiNextdotjs className="text-7xl text-white"/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(4)} 
+            initial='initial'
+            animate = 'animate'
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiShadcnui className="text-7xl text-white"/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(3.5)} 
+            initial='initial'
+            animate = 'animate'
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <FaGithub className="text-7xl text-white"/>
             </motion.div>
         </motion.div>
     </div>

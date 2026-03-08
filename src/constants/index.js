@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 
 
@@ -9,6 +11,8 @@ import project4 from "../assets/projects/project-4.png";
 export const ABOUT_TEXT = `I'm a fullstack developer and engineering student with a strong foundation in data structures and algorithms, and hands-on experience in full stack development. I've interned at Swapple Solutions and Vhyxara, working from init to deployment—building responsive UIs, integrating RESTful APIs, and implementing secure RBAC systems. My projects like City Tour Optimization and Movie Hub showcase my problem-solving skills and algorithmic thinking. I work with technologies like React, Next.js, Node.js, and MongoDB, and I'm passionate about building efficient, user-focused web applications. I thrive in collaborative teams and enjoy exploring new technologies and contributing to open-source.`;
 
 export const EXPERIENCES = [
+
+  
   {
     year: "May,2025 - present",
     role: "Frontend Developer",
@@ -24,6 +28,36 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+
+  {
+    title:"Zingr - Food Discovery & Ordering Platform" ,
+    image:project5 ,
+    description: "A TikTok-inspired social platform combining food discovery with seamless ordering capabilities. Built with the MERN stack (MongoDB, Express.js, React, Node.js), Zingr features dual authentication for users and restaurant partners, vertical auto-playing video reels showcasing dishes, and integrated food ordering functionality. Implemented JWT-based authentication with role-based access control, social interactions (likes, saves, comments), and ImageKit CDN for media storage. Optimized video playback using IntersectionObserver API and designed RESTful APIs with secure middleware. Deployed on Vercel with microservices architecture, enabling users to discover restaurants through engaging content and place orders directly within the platform.",
+    technologies: ["React.js", "React Router", "Vite", "Axios", "Node.js", "Express.js", "MongoDB", "ImageKit"],
+    github:"https://github.com/0Aryan1/Zingr" ,
+    demo: "https://zingr-eta.vercel.app/register",
+  },
+
+  {
+    title:"DealDrop" ,
+    image: project6,
+    description: "DealDrop is an intelligent price tracking platform that helps users save money by monitoring product prices across e-commerce websites. Built with Next.js 16 and React 19, it leverages Firecrawl API for automated web scraping to extract real-time pricing data from dynamic websites. The application uses Supabase for secure authentication and PostgreSQL database management, storing historical price trends visualized through interactive Recharts graphs. Serverless cron jobs continuously monitor tracked products and send instant email alerts via Resend API when prices drop. With a responsive Tailwind CSS interface and OAuth integration, DealDrop transforms passive shopping into proactive savings.",
+    technologies: ["Next.js", "React", "Supabase", "Firecrawl API", "Resend", "Recharts"],
+    github: "https://github.com/0Aryan1/DealDrop",
+    demo: "https://deal-drop-jade.vercel.app/",
+  },
+
+  {
+    title: "The Jargonaut",
+    image: project3,
+    description:
+      "The Jargonaut is a blog-style web application focused on exploring topics in corporate law, pop culture, and related analytical content. It appears to offer articles that interpret legal concepts through cultural and practical lenses for readers seeking insights and commentary on legal issues in everyday life.",
+    technologies: ["React.js", "Appwrite", "Redux Toolkit", "React Hook Form", "TinyMCE"],
+    github: "https://github.com/0Aryan1/JARGONAUT",
+    demo: "https://www.thejargonaut.in.net/"
+  },
+
+
   {
     title: "VIFS",
     image: project2,
@@ -42,15 +76,7 @@ export const PROJECTS = [
     github: "https://github.com/0Aryan1/Movie-Hub",
     demo: "https://movie-hub-sage-nine.vercel.app"
   },
-  {
-    title: "The Jargonaut",
-    image: project3,
-    description:
-      "The Jargonaut is a blog-style web application focused on exploring topics in corporate law, pop culture, and related analytical content. It appears to offer articles that interpret legal concepts through cultural and practical lenses for readers seeking insights and commentary on legal issues in everyday life.",
-    technologies: ["HTML", "JavaScript","React","Tailwind"],
-    github: "https://github.com/0Aryan1/JARGONAUT",
-    demo: "https://www.thejargonaut.in.net/"
-  },
+  
   {
     title: "worq",
     image: project4,
@@ -64,5 +90,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "NOIDA - UP, INDIA ",
   phoneNo: "+91 8273910765 ",
-  email: "aryanagrawal16ar@gmail.com",
+  email: "aryanagrawal0102@gmail.com",
 };
